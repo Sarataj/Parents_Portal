@@ -24,6 +24,7 @@ class CreateUsersTable extends Migration
             $table->timestamps();
         });
     }
+    //'name', 'email', 'password', 'student_name', 'student_email'
 
     /**
      * Reverse the migrations.
